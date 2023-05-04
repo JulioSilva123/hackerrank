@@ -2,20 +2,7 @@
 
     Sub Main()
 
-        'Dim names = New List(Of String)() From {
-        '        "John",
-        '        "Anna",
-        '        "Monica"
-        '    }
-        'Dim joinedNames = names.Aggregate(Function(a, b) a & ", " & b)
-        'Dim oRange = Enumerable.Range(1, 10)
 
-
-        ''.Where(x >= ((x % Int64.Parse(3)) == 0 || (x %  Int64.Parse(5)) == 0))
-        ''                .Distinct();
-        ''                //.Sum(x =>
-
-        'Console.WriteLine(joinedNames)
 
 
         Dim ltotal3 As Long = Enumerable.Range(1, 10 - 1).Where(Function(x) (x Mod 3) = 0).Sum(Function(x) x)
