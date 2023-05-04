@@ -9,6 +9,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Python", "Python", "{86F2D6
 EndProject
 Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Multi_3_e_5", "python\projetoeuler\Multi_3_e_5\Multi_3_e_5.pyproj", "{5AB8A308-4547-4297-B924-63C3831D5B9D}"
 EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Multi_3_e_5VB", "vb.net\projetoeuler\Multi_3_e_5\Multi_3_e_5VB.vbproj", "{E301BD7A-DE4F-4E93-8ACC-39B634506A47}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "VB.Net", "VB.Net", "{EE66ADBA-3F47-4755-A735-1B58846C7E54}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,6 +21,10 @@ Global
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{5AB8A308-4547-4297-B924-63C3831D5B9D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{5AB8A308-4547-4297-B924-63C3831D5B9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E301BD7A-DE4F-4E93-8ACC-39B634506A47}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E301BD7A-DE4F-4E93-8ACC-39B634506A47}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E301BD7A-DE4F-4E93-8ACC-39B634506A47}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E301BD7A-DE4F-4E93-8ACC-39B634506A47}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -24,6 +32,8 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{86F2D6DF-431C-4039-A61E-5585A90BAA2F} = {EB2F6910-7508-4BCC-B683-EE65D7403D9B}
 		{5AB8A308-4547-4297-B924-63C3831D5B9D} = {86F2D6DF-431C-4039-A61E-5585A90BAA2F}
+		{E301BD7A-DE4F-4E93-8ACC-39B634506A47} = {EE66ADBA-3F47-4755-A735-1B58846C7E54}
+		{EE66ADBA-3F47-4755-A735-1B58846C7E54} = {EB2F6910-7508-4BCC-B683-EE65D7403D9B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6E9C986C-7EEB-4A1D-9771-8102E9E0186B}

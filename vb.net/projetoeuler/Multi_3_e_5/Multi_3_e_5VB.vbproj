@@ -6,9 +6,9 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{E301BD7A-DE4F-4E93-8ACC-39B634506A47}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <StartupObject>wh7.hackerrank.appmain.Module1</StartupObject>
-    <RootNamespace>wh7.hackerrank.appmain</RootNamespace>
-    <AssemblyName>wh7.hackerrank.appmain</AssemblyName>
+    <StartupObject>Multi_3_e_5VB.main</StartupObject>
+    <RootNamespace>Multi_3_e_5VB</RootNamespace>
+    <AssemblyName>Multi_3_e_5VB</AssemblyName>
     <FileAlignment>512</FileAlignment>
     <MyType>Console</MyType>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
@@ -37,7 +37,7 @@
     <DefineDebug>true</DefineDebug>
     <DefineTrace>true</DefineTrace>
     <OutputPath>bin\Debug\</OutputPath>
-    <DocumentationFile>wh7.hackerrank.appmain.xml</DocumentationFile>
+    <DocumentationFile>Multi_3_e_5VB.xml</DocumentationFile>
     <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
@@ -47,7 +47,7 @@
     <DefineTrace>true</DefineTrace>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
-    <DocumentationFile>wh7.hackerrank.appmain.xml</DocumentationFile>
+    <DocumentationFile>Multi_3_e_5VB.xml</DocumentationFile>
     <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
   </PropertyGroup>
   <PropertyGroup>
@@ -87,11 +87,12 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Module1.vb" />
+    <Compile Include="main.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
       <DependentUpon>Application.myapp</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <Compile Include="My Project\Resources.Designer.vb">
       <AutoGen>True</AutoGen>
