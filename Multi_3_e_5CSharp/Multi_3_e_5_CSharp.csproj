@@ -1,0 +1,10 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+    <AssemblyName>Multi_3_e_5_CSharp</AssemblyName>
+    <RootNamespace>Multi_3_e_5_CSharp</RootNamespace>
+  </PropertyGroup>
+
+</Project>
