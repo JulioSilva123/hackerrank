@@ -8,5 +8,3 @@
 	* Problem_Solving
 	* Python
 	* SQL
-
-
